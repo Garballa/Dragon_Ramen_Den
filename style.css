@@ -1,24 +1,25 @@
-
-.hero{
-    min-height: 30vh;
-    background-image: url('images/asian-cuisine-7209004_1280.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    color: white;
-    position: relative;
+.section-two-head {
+  font-size: 2rem;
 }
-.hero:before{
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.5);
-    z-index: 1;
+@media (max-width: 768px) {
+  .section-two-head {
+    font-size: 1.5rem;
+  }
 }
-.hero .text-center{
-    position: relative;
-    z-index: 2;
+@media (max-width: 576px) {
+  .section-two-head {
+    font-size: 1.25rem;
+  }
+}
+@media (max-width: 768px) {
+  .custom-btn {
+    font-size: 1rem;
+    padding: 0.5rem 1.25rem;
+  }
+}
+@media (max-width: 576px) {
+  .custom-btn {
+    font-size: 0.875rem;
+    padding: 0.4rem 1rem;
+  }
 }
