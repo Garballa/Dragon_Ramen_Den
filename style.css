@@ -1,5 +1,7 @@
-.section-two-head {
-  font-size: 2rem;
+.custom-btn{
+ 
+  font-family: Montserrat;
+  font-weight: bold;
 }
 @media (max-width: 768px) {
   .section-two-head {
